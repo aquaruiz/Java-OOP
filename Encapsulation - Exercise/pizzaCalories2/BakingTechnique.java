@@ -1,4 +1,4 @@
-package pizzaCalories;
+package pizzaCalories2;
 
 public enum BakingTechnique {
 	Crispy(0.9),

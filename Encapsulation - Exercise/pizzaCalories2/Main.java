@@ -1,4 +1,4 @@
-//package pizzaCalories;
+package pizzaCalories2;
 
 import java.util.Scanner;
 
@@ -23,6 +23,7 @@ public class Main {
 			myPizza.setDough(myDough);
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
+			scanner.close();
 			return;
 		}
 		
@@ -38,6 +39,7 @@ public class Main {
 				System.out.println(e.getMessage());
 //				i--;
 //				continue;
+				scanner.close();
 				return;
 			}
 		}

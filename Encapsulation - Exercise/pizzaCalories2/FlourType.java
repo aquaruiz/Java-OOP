@@ -1,4 +1,4 @@
-package pizzaCalories;
+package pizzaCalories2;
 
 public enum FlourType {
 	White(1.5),

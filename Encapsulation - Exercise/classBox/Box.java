@@ -1,4 +1,4 @@
-//package classBox;
+package classBox;
 
 public class Box {
 	private double length;

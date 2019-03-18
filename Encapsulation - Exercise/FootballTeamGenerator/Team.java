@@ -1,4 +1,4 @@
-//package FootballTeamGenerator;
+package FootballTeamGenerator;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -1,4 +1,4 @@
-//package pizzaCalories;
+package pizzaCalories;
 
 public class Topping {
 	private String toppingType;

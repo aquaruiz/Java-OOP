@@ -1,4 +1,4 @@
-//package pizzaCalories;
+package pizzaCalories;
 
 public class Dough {
 	private String flourType;

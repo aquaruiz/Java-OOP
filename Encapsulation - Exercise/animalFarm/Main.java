@@ -1,4 +1,4 @@
-//package animalFarm;
+package animalFarm;
 
 import java.util.Scanner;
 
@@ -9,6 +9,8 @@ public class Main {
 		
 		String name = scanner.nextLine();
 		int age = Integer.parseInt(scanner.nextLine());
+
+		scanner.close();
 		
 		try {
 			Chicken myChicken = new Chicken(name, age);

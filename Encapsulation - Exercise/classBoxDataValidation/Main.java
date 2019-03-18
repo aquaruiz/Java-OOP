@@ -1,4 +1,4 @@
-//package classBoxDataValidation;
+package classBoxDataValidation;
 
 import java.util.Scanner;
 
@@ -11,7 +11,10 @@ public class Main {
 		double width = Double.parseDouble(scanner.nextLine());
 		double height = Double.parseDouble(scanner.nextLine());
 		
+		scanner.close();
+		
 		try {
+			@SuppressWarnings("unused")
 			Box myBox = new Box(length, width, height);
 		} catch (Exception e) {
 			System.out.println(e.getMessage());

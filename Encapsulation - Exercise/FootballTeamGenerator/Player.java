@@ -1,4 +1,4 @@
-//package FootballTeamGenerator;
+package FootballTeamGenerator;
 
 public class Player {
 	String name;

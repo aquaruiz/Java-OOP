@@ -1,4 +1,4 @@
-//package shoppingSpree;
+package shoppingSpree;
 
 public class Product {
 	private String name;

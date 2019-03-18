@@ -1,4 +1,4 @@
-//package animalFarm;
+package animalFarm;
 
 import java.text.DecimalFormat;
 
@@ -50,6 +50,7 @@ public class Chicken {
 		return product;
 	}
 	
+	@SuppressWarnings("unused")
 	private double calculateProductPerDay() {
 		return this.productPerDay();
 

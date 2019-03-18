@@ -1,4 +1,4 @@
-//package pizzaCalories;
+package pizzaCalories;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -24,6 +24,7 @@ public class Main {
 			myPizza.setDough(myDough);
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
+			scanner.close();
 			return;
 		}
 		
@@ -32,6 +33,7 @@ public class Main {
 			String toppingName = toppingTokens[1];
 			double toppingWeight = Double.parseDouble(toppingTokens[2]);
 			
+			scanner.close();
 			try {
 				Topping myNextTopping = new Topping(toppingName, toppingWeight);
 				myPizza.addTopping(myNextTopping);
@@ -43,7 +45,6 @@ public class Main {
 			}
 		}
 		
-		scanner.close();
 		
 		DecimalFormat caloriesFormat = new DecimalFormat("0.00");
 		System.out.println(myPizza.getName() + " - " + caloriesFormat.format(myPizza.getOverallCalories()));

@@ -1,4 +1,4 @@
-//package classBox;
+package classBox;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -11,6 +11,9 @@ public class Main {
 		double length = Double.parseDouble(scanner.nextLine());
 		double width = Double.parseDouble(scanner.nextLine());
 		double height = Double.parseDouble(scanner.nextLine());
+		
+		scanner.close();
+		
 		Box myBox = new Box(length, width, height);
 		
 		DecimalFormat doubleFormat = new DecimalFormat("0.00");

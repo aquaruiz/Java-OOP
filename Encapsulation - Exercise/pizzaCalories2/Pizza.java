@@ -1,9 +1,10 @@
-//package pizzaCalories;
+package pizzaCalories2;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Pizza {
+	@SuppressWarnings("unused")
 	private String name;
 	private Dough dough;
 	// ArrayList  ??

@@ -1,4 +1,4 @@
-//package FootballTeamGenerator;
+package FootballTeamGenerator;
 
 import java.text.DecimalFormat;
 import java.util.HashMap;
@@ -76,11 +76,13 @@ public class Main {
 				DecimalFormat ratingFormat = new DecimalFormat("0");
 				
 				double rating = teams.get(teamName).getRating();
-				System.out.println(teamName + " - " + ratingFormat.format(teams.get(teamName).getRating()));
+				System.out.println(teamName + " - " + ratingFormat.format(rating));
 				break;
 			}
 
 			line = scanner.nextLine();
 		}
+		
+		scanner.close();
 	}
 }
