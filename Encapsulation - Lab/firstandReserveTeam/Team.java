@@ -23,10 +23,12 @@ public class Team {
 		this.name = name;
 	}
 	
+	@SuppressWarnings("unused")
 	private List<Person> getFirstTeamPlayers() {
 		return this.firstTeam;
 	}
 	
+	@SuppressWarnings("unused")
 	private List<Person> getReserveTeamPlayers() {
 		return this.reserveTeam;
 	}
