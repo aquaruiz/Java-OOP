@@ -1,4 +1,4 @@
-//package calculator;
+package calculator;
 
 public class CalculationEngine {
     private int result;

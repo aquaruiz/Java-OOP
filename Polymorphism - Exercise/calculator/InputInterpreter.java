@@ -1,4 +1,4 @@
-//package calculator;
+package calculator;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

@@ -1,4 +1,4 @@
-//package calculator;
+package calculator;
 
 public interface Operation {
     void addOperand(int operand);
